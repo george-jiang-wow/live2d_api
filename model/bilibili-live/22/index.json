@@ -2,12 +2,12 @@
     "type":"Live2D Model Setting",
     "name":"22-3695903",
     "label":"22",
-    "model":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/02z8vu7u",
+    "model":"model.moc",
     "textures":[
-        "https://www.luogu.com.cn/fe/api/problem/downloadAttachment/6xvr2ffr",
-        "https://www.luogu.com.cn/fe/api/problem/downloadAttachment/29et7nph",
-        "https://www.luogu.com.cn/fe/api/problem/downloadAttachment/eq4tr8ur",
-        "https://www.luogu.com.cn/fe/api/problem/downloadAttachment/7yub8sfb"
+        "texture_00/closet-default-v2.png",
+        "texture_01/default-upper.png",
+        "texture_02/default-lower.png",
+        "texture_03/default-hat.png"
     ],
     "layout":{
         "center_x": 0,
@@ -23,18 +23,18 @@
 	},
     "motions":{
         "idle":[
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/h94ndd1x","fade_in":2000,"fade_out":2000},
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/5bu1t74p","fade_in":2000,"fade_out":2000},
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/xqbg7q8c","fade_in":100,"fade_out":100}
+            {"file":"motions/idle-01.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"motions/idle-02.mtn","fade_in":2000,"fade_out":2000},
+            {"file":"motions/idle-03.mtn","fade_in":100,"fade_out":100}
         ],
         "flick_head":[
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/yyeng2ao","fade_in":500,"fade_out":200}
+            {"file":"motions/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "tap_body":[
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/yyeng2ao","fade_in":500,"fade_out":200}
+            {"file":"motions/touch.mtn","fade_in":500,"fade_out":200}
         ],
         "thanking":[
-            {"file":"https://www.luogu.com.cn/fe/api/problem/downloadAttachment/cpm6ey6i","fade_in":2000,"fade_out":2000}
+            {"file":"motions/thanking.mtn","fade_in":2000,"fade_out":2000}
         ]
     }
 }
